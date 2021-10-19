@@ -445,6 +445,7 @@ void Sensors_init() {
     }
 
     DA_get_status(da_load(), "Loading Disk");
+    //Sensors_start_timers();
 }
 
 /////////////////////////////////////////// I2C Functions /////////////////////////////////////////////////
